@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+  }
+  .gym{
+    margin-top: 20px;
+  }
+.gym .container{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .slider {
+    overflow: hidden;
+    width: 95%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slide 10s infinite;
+    display: flex;
+    align-items: center;
+  }
+  
+  .slider .slide:nth-child(1) {
+    background-image: url('imges/gem2.webp');
+    animation-delay: -0;
+  }
+  
+  .slider .slide:nth-child(2) {
+    background-image: url('imges/gymback.webp');
+    animation-delay: -5s;
+  }
+  .con_slider{
+    position: absolute;
+    margin-left: 80px;
+    color: aliceblue;
+  }
+  .con_slider h2{
+    font-size: 40px;
+  }
+  .con_slider h3{
+    font-size: 25px;
+  }
+  .con_slider p{
+    font-size: 20px;
+  }
+  .con_slider button{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: red;
+    color: aliceblue;
+    border: 0px;
+    transition:all 1.5s;
+    border-radius: 10px;
+  }
+  .con_slider button:hover{
+    background-color: tomato;
+    color: aliceblue;
+  }
+  .f_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .row_1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  .row_2{
+    width: 55%;
+    display: flex;
+    align-items: center;
+  }
+  .row_3{
+    width: 65%;
+    display: flex;
+    align-items: center;
+  }
+  .row_4{
+    width: 35%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .row_con h2{
+    font-size: 40px;
+  }
+  .conta{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  @keyframes slide {
+    0%, 30%, 100% {
+      transform: translateX(0);
+      animation-timing-function: ease;
+    }
+    50% {
+      transform: translateX(-100%);
+      animation-timing-function: step-end;
+    }
+    80% {
+      transform: translateX(100%);
+      animation-timing-function: ease;
+    }
+  }
+  .split-image-container {
+    display: flex;
+  }
+  
+  .split-image-container .split-image {
+    width: 213px;
+    height: 427px;
+    background: url("imges/gem1.webp");
+    background-size: cover;
+    margin: 0 20px;
+    transform: scale(1.08) rotateZ(3deg);
+    box-shadow: 0 5px 40px -24px #00ffdd;
+  }
+  
+  .split-image-container .split-image:nth-child(2) {
+    background-position-x: 426px;
+  }
+  .split-image-container .split-image:nth-child(3) {
+    background-position-x: 213px;
+  }
+  .split-image-container2 {
+    display: flex;
+  }
+  
+  .split-image-container2 .split-image {
+    width: 320px;
+    height: 336px;
+    background: url("imges/pt-certified.webp");
+    background-size: cover;
+    margin: 0 20px;
+    transform: scale(1.08) rotateZ(3deg);
+    box-shadow: 0 5px 40px -24px #00ffdd;
+  }
+  
+  .split-image-container2 .split-image:nth-child(2) {
+    background-position-x: 320px;
+  }
+  
+  

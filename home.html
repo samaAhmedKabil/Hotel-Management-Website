@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hotel</title>
+        <link rel="stylesheet" href="css/all.min.css" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- button up -->
+        <button class="btn rounded-circle text-white" id="btnup">
+        <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top pt-3 pb-3" id="main-nav">
+        <div class="container">
+            <a class="navbar-brand text-white" href="home.html">Montana</a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#home">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#about">About</a>
+                </li>
+                <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#servicee">Services</a>
+                </li>
+                <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="#room">Rooms</a>
+                </li>
+                <li class="nav-item mx-2">
+                <a class="nav-link text-white" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown mx-2">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Pages
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Booking.html">Booking</a></li>
+                    <li><a class="dropdown-item" href="team.html">Our Team</a></li>
+                </ul>
+                </li>
+            </ul>
+            <button>
+                <a class="nav-link text-white" href="Booking.html">Book Online</a>
+            </button>
+            </div>
+        </div>
+        </nav>
+        <!-- End Navbar -->
+        <!-- Start Home -->
+        <div class="home" id="home">
+        <div class="overlay"></div>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+            <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+            ></button>
+            <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+            ></button>
+            <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+            ></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/hotel.jpg" class="d-block w-100" alt="hotel" />
+                <div class="carousel-caption d-none d-md-block">
+                <h1 class="text-white z-3 position-relative">Hello In Our Hotel </h1>
+                <p class="text-white z-3 position-relative">
+                    Deserve <span id="auto-type" class="type"></span>
+                </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/home2.jpg" class="d-block w-100" alt="hotel" />
+                <div class="carousel-caption d-none d-md-block">
+                <h1 class="text-white z-3 position-relative">Hello In Our Hotel</h1>
+                <p class="text-white z-3 position-relative">
+                    Deserve <span id="sec-type"></span>
+                </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/hotel2.jpg" class="d-block w-100" alt="hotel" />
+                <div class="carousel-caption d-none d-md-block">
+                <h1 class="text-white z-3 position-relative">Hello In Our Hotel</h1>
+                <p class="text-white z-3 position-relative">
+                    Deserve <span id="third-type"></span>
+                </p>
+                </div>
+            </div>
+            </div>
+            <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+            >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+            >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+
+        <!-- End Home -->
+        <!-- Start About -->
+        
+    <section class="about" id="about">
+      <h1 class="text-center fw-bold">About Us</h1>
+      <div class="row1">
+          <div class="image">
+              <img src="IMAGESSo/gallery-img-2.webp" alt="" class="w-100">
+          </div>
+          <div class="content">
+              <h3>ROOMS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum maxime eius aliquid temporibus unde?</p>
+              <a href="#room" class="btn">make a reservation</a>
+          </div>
+      </div>
+      <div class="row1 revers">
+          <div class="image">
+              <img src="IMAGESSo/photo_2023-12-28_20-27-08.jpg" alt="" class="w-100">
+          </div>
+          <div class="content">
+              <h3>Restaurant</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum maxime eius aliquid temporibus unde?</p>
+              <a href="contact.html" class="btn">contact us</a>
+          </div>
+      </div>
+      <div class="row1">
+          <div class="image">
+              <img src="IMAGESSo/photo_2023-12-28_20-27-19.jpg" alt="" class="w-100">
+          </div>
+          <div class="content">
+              <h3>GYM</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi laborum maxime eius aliquid temporibus unde?</p>
+              <a href="#servicee" class="btn">check availability</a>
+          </div>
+      </div>
+
+    </section>
+
+    <section class="services">
+
+      <div class="box-container">
+        <div class="box-container1 d-flex">
+          <div class="box">
+              <img src="IMAGESSo/icon-1.png" alt="">
+              <h3>food & drinks</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
+          </div>
+
+          <div class="box">
+              <img src="IMAGESSo/icon-2.png" alt="">
+              <h3>outdoor dining</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
+          </div>
+
+          <div class="box">
+              <img src="IMAGESSo/icon-3.png" alt="">
+              <h3>beach view</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
+          </div>
+        </div>
+      <div class="box-container1 d-flex">
+          <div class="box">
+              <img src="IMAGESSo/icon-4.png" alt="">
+              <h3>decorations</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
+          </div>
+
+          <div class="box">
+              <img src="IMAGESSo/icon-5.png" alt="">
+              <h3>swimming pool</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
+          </div>
+
+          <div class="box">
+              <img src="IMAGESSo/icon-6.png" alt="">
+              <h3>resort beach</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, sunt?</p>
+          </div>
+    </div>
+      </div>
+
+    </section>
+        <!-- End About -->
+        <!-- Start Services -->
+        <div class="service" id="servicee">
+            <section id="team" >
+                <div class="container">
+                  <div class="about-content ">
+                    <div class="h-letter">
+                      <h3><span>S</span></h3>
+                      <h2 class="wel">Services</h2>
+                    </div>
+                  </div>
+                  <div style="background-color: rgb(246, 246, 246); padding: 15px;">
+                  <div class="row" >
+                    <div class=" con_2 ">
+                      <div class="t-item">
+                        <div class="t-image  "><img src="imges/cooffe.jpg"  alt="">
+                          <div class="t-layer">
+                            <div class="t-brands">
+                              <h3 class="t-letter">OUR Coffee</h3>
+                            </div>
+                          </div>
+                        </div>
+                        <h2 class=" t-letter">Aroma Haven</h2>
+                        <p class="txt">stands out with its elegant
+                             atmosphere and premium coffee, an ideal
+                              place for relaxation.</p>
+                      </div>
+                      <div class="tx">
+                        <a href="coffee.html" >
+                          <button type="button">View Now</button>
+                        </a>
+                      </div>
+                    </div>
+                     <div class="con_2">
+                      <div class="t-item">
+                        <div class="t-image  "><img src="imges/restaurant.jpg"  alt="">
+                          <div class="t-layer ">
+                            <div class="t-brands">
+                              <h3 class=" t-letter ">OUR Restaurant</h3>
+                            </div>
+                          </div>
+                        </div>
+                        <h2 class="t-letter">Gourmet Delights</h2>
+                        <p class="txt"> offers an upscale experience, presenting a diverse menu of exquisite cuisines suited for fine dining enthusiasts.</p>
+                      </div>
+                      <div class="tx">
+                        <a href="res.html" >
+                          <button type="button">View Now</button>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="con_2">
+                      <div class="t-item">
+                        <div class="t-image  "><img src="imges/gymm.jpg"  alt="">
+                          <div class="t-layer ">
+                            <div class="t-brands">
+                              <h3 class=" t-letter ">OUR GYM</h3>
+                            </div>
+                          </div>
+                        </div>
+                        <h2 class="t-letter">Fitness Haven</h2>
+                        <p class="txt">offers a holistic approach, featuring yoga 
+                          classes and relaxation therapies for those 
+                          seeking a balanced workout experience..</p>
+                      </div>
+                      <div class="tx">
+                        <a href="gym.html" >
+                          <button type="button">View Now</button>
+                        </a>
+                      </div>
+                    </div>  
+                </div>
+                  </div>
+              </section>  
+        </div> 
+        <!-- End Services -->
+        <!-- Start Rooms -->
+        <div class="mainRoom" id="room">
+            <h1 class="main-head">Our Rooms</h1>
+            <div class="container">
+                <div class="box">
+                    <div class= "room" onmouseover="changeTextColor('text1','darksalmon')" onmouseout="changeTextColor('text1','')" onclick="openTab('singleroom.html')">
+                        <div class="image">
+                            <img class = "picRoom w-100" src="images/room1.jpg.webp" alt="Original Single Bed" style = "width: 100%;">
+                        </div>
+                        <div class="content">
+                            <h4 class="text"><b>Original Single Room</b></h4> 
+                            <p><ins>$</ins>150 / per night</p> 
+                        </div>
+                    </div>
+                    <div class = "room" onmouseover="changeTextColor('text2','darksalmon')" onmouseout="changeTextColor('text2','')" onclick="openTab('singleroom.html')">
+                        <div class="image">
+                            <img class = "picRoom w-100" src="images/room2.jpg.webp" > 
+                        </div>
+                        <div class="content">
+                            <h4 class="text"><b>VIP Single Room</b></h4> 
+                            <p><ins>$</ins>150 / per night</p> 
+                        </div>
+                    </div>
+                    <div class = "room" onmouseover="changeTextColor('text3','darksalmon')" onmouseout="changeTextColor('text3','')" onclick="openTab('singleroom.html')">
+                        <div class="image">
+                            <img class = "picRoom w-100" src="images/room3.jpg.webp">
+                        </div>
+                        <div class="content">
+                            <h4 class="text"><b>Single Couple Room</b></h4> 
+                            <p><ins>$</ins>150 / per night</p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="box mt-4">
+                    <div class="room" onmouseover="changeTextColor('text4','darksalmon')" onmouseout="changeTextColor('text4','')" onclick="openTab('singleroom.html')">
+                        <div class="image">
+                            <img class="picRoom w-100" src="images/room4.jpg.webp" >
+                        </div>
+                        <div class="content">
+                            <h4 class="text"><b>Original Double Room</b></h4>
+                            <p><ins></ins>150 / per night</p>
+                        </div>
+                    </div>
+        
+                    <div class="room" onmouseover="changeTextColor('text5','darksalmon')" onmouseout="changeTextColor('text5','')" onclick="openTab('singleroom.html')">
+                        <div class="image">
+                            <img class="picRoom w-100" src="images/room5.jpg.webp" >
+                        </div>
+                        <div class="content">
+                            <h4 class="text"><b>VIP Suite</b></h4>
+                            <p><ins>$</ins>150 / per night</p>
+                        </div>
+                    </div>
+                    <div class="room" onmouseover="changeTextColor('text6','darksalmon')" onmouseout="changeTextColor('text6','')" onclick="openTab('singleroom.html')">
+                        <div class="image">
+                            <img class="picRoom w-100" src="images/room6.jpg.webp" >
+                        </div>
+                        <div class="content">
+                            <h4 class="text"><b>Original Suite</b></h4>
+                            <p><ins>$</ins>150 / per night</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script>
+            function changeTextColor(item ,color) {
+                document.getElementById(item).style.color = color;
+            }
+        </script>
+        <script>
+            function openTab(link) {
+            window.open(link, "_blank");
+            }
+        </script>
+        <!-- End Rooms -->
+        <!-- start footer -->
+        <div class="footer">
+            <div class="container">
+              <div class="big">
+                <div class="box"> 
+                      <h3>Montana</h3>
+                    <ul class="social" type="none">
+                      <li> 
+                            <a href="#" class="facebook"> <i class="fa-brands fa-square-facebook"></i> </a> 
+                      </li>
+                      <li> 
+                          <a href="#" class="twitter"><i class="fa-brands fa-square-twitter"></i> </a> 
+                      </li>
+                      <li> 
+                          <a href="#" class="youtube"><i class="fa-brands fa-square-youtube"></i></a> 
+                      </li>
+                    </ul>
+                    
+                    <p class="footertext">
+                      our hotel Reserve Rest & Comfort
+                    </p>            
+                </div> 
+                <div class="box">
+                    <h2>Quick Links</i></h4>
+                <ul class="Links" type="none">
+                    <li><a href="#"> <i class="fa-sharp fa-solid fa-angles-right"></i> About Hotel</a></li>
+                    <li><a href="#"> <i class="fa-sharp fa-solid fa-angles-right"></i> Our Best Rooms</a></li>
+                    <li><a href="#"> <i class="fa-sharp fa-solid fa-angles-right"></i> Our Photo Gellary</a></li>
+                    <li><a href="#">  <i class="fa-sharp fa-solid fa-angles-right"></i> Pool Service</a></li>
+                    </ul> 
+                </div>
+                <div class="box">
+                    <h1>Contact Info</i></h2>
+                    <div class="Lines d-flex justify-content-center align-items-center"   >
+                      <i class="fa-solid fa-location-dot"></i>
+                      <div class="info"> Suite 721 New York NY 10016,198 West 21th Street</div>
+                    </div>
+                    <div class="Lines"  >
+                      <i class="fa-solid fa-square-envelope"></i>
+                      <div> <a href="#" id="MyLink">reservations@hotelriver.com</a> </div>
+                    </div>
+                    <div class="Lines" >
+                      <i class="fa-sharp fa-solid fa-phone-volume"> </i>
+                      <div>+2025556668 <br> +209658723</div>
+                    </div>
+                </div>
+                <div class="box">
+                  <h1>Collections</i></h2>
+                      <div class="footergallery">
+                            <img src="image/room.jpg" alt="logo">
+                            <img src="image/coffee.jpg" alt="logo">
+                            <img src="image/resturant.jpg" alt="logo">
+
+                        
+                            <img src="image/gym.jpg" alt="logo">
+                            <img src="image/pool.jpg" alt="logo">
+                            <img src="image/hotel.jpg" alt="logo">
+                        
+                      </div>
+                </div>
+              </div>
+            </div>
+            <p class="Copyright">
+              Copyright © 2023 All rights reserved | This template is made with 
+              <i class="fa-brands fa-gratipay fa-beat-fade"></i> by <a href="https://colorlib.com" target="_blank">Team</a>
+            </p>    
+      </div>
+        <!-- end footer -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

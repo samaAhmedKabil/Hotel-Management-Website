@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.mainRoom{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.mainRoom .main-head{
+text-align: center;
+margin-bottom: 30px;
+font-family: 'Dancing Script', cursive ;
+font-weight: bold;
+font-size: 50px;
+}
+.mainRoom .box{
+    display: flex;
+    gap: 25px
+}
+.mainRoom .box .room {
+    box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.2);
+    transition: all 0.4s;
+}
+.room .image img{
+    transition: all 0.4s;
+}
+.room .image{
+    overflow: hidden;
+}
+.room:hover img{
+    transform: rotate(2deg) scale(1.1);
+}
+.mainRoom .box .room .content{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.mainRoom .box .room .content h4{
+    color: #112e41;
+    font-size: 23px;
+}
+.mainRoom .box .room .content p{
+    color: #848484;
+    font-size: 14px;
+}
+.mainRoom .box .room .content:hover h4{
+    color:#dca73a;;
+}
+
+
+
+

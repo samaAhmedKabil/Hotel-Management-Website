@@ -1,0 +1,85 @@
+.contact{
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+
+}
+.contact .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-repeat: no-repeat;
+}
+.contact h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white !important;
+}
+.map{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map iframe{
+    margin: auto;
+    width: 100%;
+    height: 350px;
+}
+.map .container form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 0 20px #00000014;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.map .container  form .group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.map .container  form .group input{
+    width: calc((100% - 20px ) / 2);
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+.map .container  form .subject{
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+.map .container  form textarea{
+    border: 1px solid #ccc;
+    resize: none;
+    padding: 10px;
+}
+.map .container  form button{
+    width: fit-content;
+    margin: 0 auto;
+    background-color:#dca73a; 
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 0.4s;
+}
+.map .container  form textarea:focus{
+    border: none;
+    outline: 2px solid #dca73a;
+}
+.map .container form input:focus{
+    border: none;
+    outline: 2px solid #dca73a;
+}
+.map .container form button:hover{
+    background-color:  #0F172B;
+}
